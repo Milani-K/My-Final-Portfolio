@@ -1,10 +1,3 @@
-/* Reset basic styling */
-body, ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -20,7 +13,7 @@ h1, h2, h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-header, footer {
+header,footer {
     color: palevioletred;
     text-align: center;
     padding: 1rem 0; 
@@ -80,8 +73,7 @@ header p {
     background-image: url('./IMAGES/home-background.png');
     /* background-size: cover; */
     background-position: center;
-  
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;   
     flex-direction: column;   
@@ -92,8 +84,8 @@ header p {
     color:pink;  
     font-weight: bold;
     border-right: 2px solid white; 
+    background-size:cover;
 }
-
 
 
 
@@ -424,6 +416,8 @@ button a:hover {
 }
 
 /* Contact Section */
+
+/*footer*/
 footer {
     background-color: #333;
     color: #fff;
@@ -439,42 +433,7 @@ footer p {
     font-size: 1rem;
     margin-bottom: 30px;
 }
-.contact{
-    text-align: center;
-    color: #333;
-}
 
-.contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact input, footer textarea {
-    width: 100%;
-    max-width: 500px;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid #8a2be2;
-    border-radius: 5px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-
-.contact button {
-    background-color: #8a2be2;
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact button:hover {
-    background-color: #5e2c8d;
-}
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -512,3 +471,10 @@ footer p {
         width: 100%;
     }
 }
+
+.contact-form-wrapper{
+
+    background-color: #555;
+
+}
+

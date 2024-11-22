@@ -1,15 +1,4 @@
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
     document.addEventListener("DOMContentLoaded", () => {
         const readMoreButton = document.getElementById("readMoreButton");
         const moreText = document.getElementById("moreText");
