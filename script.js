@@ -69,3 +69,17 @@ function toggleReadMore() {
 document.getElementById('viewMoreBtn').addEventListener('click', function() {
     window.location.href = 'certificates.html';
 });
+
+
+document.getElementById('cdheads').addEventListener('click', function() {
+    window.location.href = 'codeheads.html';
+});
+
+
+document.getElementById('codlify').addEventListener('click', function() {
+    window.location.href = 'codlify.html';
+});
+
+document.getElementById('go-back-button').addEventListener('click', function() {
+    window.location.href = 'index.html';
+});

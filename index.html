@@ -128,44 +128,50 @@
     </section>
 
     <section id="projects" class="project-section">
-        <h1>Checkout My Projects</h1>
-        <p>Click on each image to explorer the sites!</p>
-        <div class="project-cards">
-             <a href="https://codeheadshublms.netlify.app/">
-                <img src="./IMAGES/projects/codeheads.png" alt="Codlify Project" class="certificate-image" />
-            </a>
-                <h3>CODE HEAD'S LEARNING HUB PROJECT</h3>
-                <p>
-                    The Tech Learning Hub is an interactive platform designed to empower individuals with the latest
-                    skills in software development.
-                    <span id="moreText1" class="hidden">
-                        It offers a wide range of courses, tutorials, and resources aimed at learners of all levels,
-                        from beginners to experts.
-                    </span>
-                </p>
-                <button class="readMoreButton" onclick="toggleText('moreText1')">Read More</button>
-            </div>
-            <section id="project" class="project-section">
-                
-                <div class="project-cards">
-                     <a href="https://codelify-code.netlify.app/">
-                        <img src="./IMAGES/projects/codlify.png" alt="Codlify Project" class="certificate-image" />
-                    </a>
-                        <h3>CODLIFY PROJECT</h3>
-                        <p>
-                            Codlify is a software company portfolio showcasing a range of services designed to help businesses
-                            thrive in the digital age.
-                            <span id="moreText2" class="hidden">
-                                Codlify provides custom software applications, builds responsive websites, and ensures seamless
-                                database management for optimal performance.
-                            </span>
-                        </p>
-                        <button class="readMoreButton" onclick="toggleText('moreText2')">Read More</button>
-                    </div>
-            
-            
+    <h1>Checkout My Projects</h1>
+    <p>Click on each image to explore the sites!</p>
+    
+    <!-- First Project Card -->
+    <div class="project-cards">
+        <a href="https://codeheadshublms.netlify.app/">
+            <img src="./IMAGES/projects/codeheads.png" alt="Full Width Image" class="full-width-image">
+
+        </a>
+        <div class="text-content">
+            <h3>CODE HEAD'S HUB</h3>
+            <p>
+                The Tech Learning Hub is an interactive platform designed to empower individuals with the latest
+                skills in software development.
+                <span id="moreText1" class="hidden">
+                    It offers a wide range of courses, tutorials, and resources aimed at learners of all levels,
+                    from beginners to experts.
+                </span>
+            </p>
+            <button class="codlify" id="codlify">Case Study</button>
         </div>
-    </section>
+    </div>
+    
+    <!-- Second Project Card -->
+    <div class="project-cards">
+        
+        <a href="https://codelify-code.netlify.app/">
+            <img src="./IMAGES/projects/codlify.png" alt="Full Width Image" class="full-width-image" />
+        </a>
+        <div class="text-content">
+            <h3>CODLIFY PROJECT</h3>
+            <p>
+                Codlify is a software company portfolio showcasing a range of services designed to help businesses
+                thrive in the digital age.
+                <span id="moreText2" class="hidden">
+                    Codlify provides custom software applications, builds responsive websites, and ensures seamless
+                    database management for optimal performance.
+                </span>
+            </p>
+            <button class="codeheads" id="cdheads">Case Study</button>
+        </div>
+    </div>
+</section>
+
     <section id="certificates" class="certification-section">
         <h1>My Certifications</h1>
         <p>Here's a glimpse of my certifications.</p>
@@ -249,6 +255,9 @@
                         asynchronous operations, and building server-side applications.</p>
                 </div>
             </div>
+            <div class="">
+
+            </div>
             <button class="view-more-button" id="viewMoreBtn">View More</button>
 
         </div>
@@ -259,22 +268,21 @@
     <section id="contact" class="contact">
         <div class="contact-info">
             <h1>Excited to hear what you have for me!</h1>
-            <p>If you have any questions or just want to say hi, feel free to drop me a message. I'm always happy to
-                connect!</p>
+            <p>If you have any questions or just want to say hi, feel free to drop me a message. I'm always happy to connect!</p>
             <p>Fill out the form on the right and I'll get back to you as soon as I can.</p>
         </div>
         <div class="contact-form-wrapper">
             <form action="https://formspree.io/f/xdkoddpe" method="post" class="contact-form">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required placeholder="Enter your name">
-
+    
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" required placeholder="Enter your email">
-
+    
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
-
-                <button type="submit" cl>Send Message</button >
+    
+                <button type="submit">Send Message</button>
             </form>
         </div>
     </section>
@@ -283,7 +291,7 @@
         <h2>Contact Me</h2>
         <p>Email: Kukumamilani62@gmail.com | LinkedIn: <a
                 href="https://www.linkedin.com/in/milani-kukuma-71a330279/">Click to Connect</a></p>
-
+                <p>&copy; 2024 Learning Hub - All Rights Reserved</p>
 
     </footer>
 
