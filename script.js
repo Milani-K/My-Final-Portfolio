@@ -71,12 +71,12 @@ document.getElementById('viewMoreBtn').addEventListener('click', function() {
 });
 
 
-document.getElementById('cdheads').addEventListener('click', function() {
+document.getElementById('codlify').addEventListener('click', function() {
     window.location.href = 'codeheads.html';
 });
 
 
-document.getElementById('codlify').addEventListener('click', function() {
+document.getElementById('cdheads').addEventListener('click', function() {
     window.location.href = 'codlify.html';
 });
 
